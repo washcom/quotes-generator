@@ -1,0 +1,90 @@
+/* General body styling for dark theme */
+body {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+ font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#header{
+    color: green;
+}
+
+#person{
+    color: rgb(79, 79, 194);
+}
+/* Container for the card */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Styling the card */
+.card {
+    background-color: #1e1e1e; /* Dark card background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 400px;
+}
+
+/* Hover effect for the card */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Card body styling */
+.card-body {
+    padding: 30px;
+}
+
+/* Title inside card */
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f0f0f0; /* Light text color for title */
+    text-align: center;
+}
+
+/* Main quote text */
+.card-text {
+    font-size: 1.2rem;
+    color: #dcdcdc; /* Slightly lighter text for the quote */
+    font-style: italic;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Author name styling */
+.text-center.font-weight-bold {
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #b0b0b0; /* Lighter color for author name */
+}
+
+/* Button styling */
+.btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green button for dark theme */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}

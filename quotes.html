@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Quotes</title>
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="quote.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="card" style="width: 18rem;"id="body">
+            <div class="card-body" >
+                <h5 class="card-title text-center" id="header">Todays Quote</h5>
+                <p class="card-text text-center"id ="quote">“Learning never exhausts the mind.”</p>
+                <p class="text-center font-weight-bold" id="person">Leonardo da Vinci</p>               
+                <div class="text-center">
+                    <button class="btn btn-success" onclick="newquote()">New Quote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link to Bootstrap JS (optional, for full functionality like dropdowns) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="quotes.js"></script>
+</body>
+</html>
